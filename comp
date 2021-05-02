@@ -1,0 +1,5 @@
+#!/bin/bash
+filename=$1
+filewo="$(basename "$filename" | sed 's/\(.*\)\..*/\1/')"
+g++ -c $filewo.cpp -o /tmp/$filewo.o
+g++ /tmp/$filewo.o -o `pwd`/sfml-app -lsfml-graphics -lsfml-window -lsfml-system
