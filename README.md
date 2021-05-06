@@ -1,6 +1,6 @@
 # tic-tac
 
-This hopefully wil be a simple tic-tac-toe game written on c++ with sfml library
+This hopefully wil be a simple fractal generator written on sfml
 
 # Compiling
 
