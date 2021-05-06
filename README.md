@@ -1,4 +1,4 @@
-# tic-tac
+# fractals
 
 This hopefully wil be a simple fractal generator written on sfml
 
