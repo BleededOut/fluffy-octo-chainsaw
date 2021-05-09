@@ -1,24 +1,14 @@
-#include <SFML/Graphics.hpp>
+#include "headers.h"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    // Create a window - width, height, label (=title)
+    Fl_Window *wind = new Fl_Window(400, 400,"FLTK Tutorial - Example 1");
+    // Display the window
+    wind->begin ();
+        Fl_Button *ok = new Fl_Button(10, 10, 100, 50, "OMFG");
 
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
-
-    return 0;
-}
+    wind->show();
+    // Run and return
+    return Fl::run();
+} 
