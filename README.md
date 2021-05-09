@@ -11,6 +11,6 @@ Or run script called comp
 
 #Todo
 
-1 - Serpinsky Triangle
-2 - Julia's set
-3 - Mandelbrot set
+1 - Serpinsky Triangle \n
+2 - Julia's set /n
+3 - Mandelbrot set /n
