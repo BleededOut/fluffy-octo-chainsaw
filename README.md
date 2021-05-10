@@ -1,10 +1,10 @@
 # fractals
 
-This hopefully wil be a simple fractal generator written on fltk
+This hopefully wil be a simple fractal generator written on (qt)fltk
 
 # Compiling
 
-compile with fltk-config --compile main.cpp
+compile with (script comp) fltk-config --compile main.cpp
 
 Or run script called comp
 # Guide is here http://quay.poly.asu.edu/Ser321/Resources/doc/FLTK-Tutorial.pdf
